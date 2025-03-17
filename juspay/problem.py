@@ -92,10 +92,10 @@ driver.find_element(By.CLASS_NAME, "QqFHMw").click()
 time.sleep(5)
 # popup for accept and continue operation 
 click('//button[text()="Accept & Continue"]')
-time.sleep(2)
+time.sleep(5)
 # select the payment option
 click('//label[@for="CREDIT"]')
-time.sleep(1)
+time.sleep(3)
 # input for payment details 
 place_order(
     card_number_xpath='//input[@name="cardNumber"]',
