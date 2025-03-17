@@ -1,14 +1,14 @@
 #Working Procedure.
 
-1. Opens the Flipkart Website: The script navigates to Flipkart.
+1. Opens the Flipkart Website using selenium webdriver.
 
-2. Navigates to the Login Page: It clicks on the login button in the navigation bar to redirect to the login page.
+2. Open theflipkart Page: It clicks on the login button in the navigation bar to redirect to the login page.
 
 3. User Input for OTP: It provides the phone number to initiate the OTP (One Time Password) process, allowing the user to manually enter the OTP for login.
 
-4. Search for a Product: Once logged in, it searches for a specific product.
+4. Search for a Product: Once logged in, it searches for a specific product from the search bar.
 
-5. Select and Open the Product: After searching, it clicks on the product to open the product details page.
+5. Select and Open the Product: After searching, it clicks on the product to open the product details page and its url.
 
 6. Click Buy Now: It clicks on the "Buy Now" button to initiate the purchase process.
 
